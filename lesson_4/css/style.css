@@ -1,0 +1,120 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap');
+
+@font-face{
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+	
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"); 
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	font-family: "Larsseit";
+		font-weight: 400;
+}
+
+h1{	
+	font-family: "Larsseit";
+	font-weight: 900;
+
+}
+h2{
+	font-family: "Lato";
+	font-weight: 900;
+}
+
+h3{
+	
+		font-family: "Roboto";
+		font-weight: 700;
+}
+
+
+
+
+
+
+
+.first-part, 
+.third-part {
+	color:red
+}
+.historique.text {
+	color:greenyellow;
+}
+
+.second-part .text {
+	color: aqua;
+}
+
+#text {
+	color: blue;
+}
+
+div {
+	color:blueviolet;
+}
+
+.text p {
+	color:orange;
+}
+
+.text > p {
+	color: rgb(54, 48, 49);
+}
+
+.text ~ p {
+	color: red;
+}
+
+.text + p {
+	color: blue;
+}
+
+* {
+	color: rgb(231, 29, 110);
+}
+
