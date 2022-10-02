@@ -1,0 +1,78 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+
+
+.short-information{
+	font-family: "Lato", sans-serif;
+	font-size: 100px;
+}
+.title.text,
+.short-information {
+	color: blue;
+	text-align: center;
+}
+.title.text {
+	font-size: 85px;
+	text-align: left;
+	color: red;
+	text-decoration: underline;
+	letter-spacing: 15px;
+
+}
+
+
+.info .block {
+	color: rgb(218, 14, 201);
+}
+.historique h3 {
+	color: rgb(24, 224, 24);
+}
+
+h2 {
+	font-family: "Roboto";
+	font-size: 50px;
+	font-style: italic;
+	padding: 20px 30px 40px 10px; 
+	
+}
+
+ul{
+	font-size: 30px;
+	word-spacing: 20px;
+	font-style: oblique;
+	margin: 30px;
+	width: 800px;
+	padding: 50px;
+}
+
+.test {
+	font-style: italic;
+
+}
+
+li{
+	font-weight: 900;
+}
+.info p {
+	text-transform: uppercase;
+	line-height: 40px;
+	text-indent: 30px;
+}
+
+.historique p{
+	white-space: nowrap;
+}
+
+main {
+	background-color: #cfb1ec;
+	box-sizing: border-box;
+}
